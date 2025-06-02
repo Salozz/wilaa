@@ -57,7 +57,7 @@ Ensure the following tools are installed on your system:
 
 1.  **Clone the repository (if applicable):**
     ```bash
-    git clone <repository_url>
+    git clone https://github.com/Salozz/wilaa
     cd wilaa
     ```
 
