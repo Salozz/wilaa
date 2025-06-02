@@ -47,8 +47,8 @@ Ensure the following tools are installed on your system:
 
 - **Nikto**  
   Web vulnerability scanner  
-  - `sudo apt install nikto`  
-  - `brew install nikto`
+  - `sudo apt install nikto` (Ubuntu/Debian) 
+  - `brew install nikto` (macOS)
 
 - **Ollama**  
   Local LLM runtime  
