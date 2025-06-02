@@ -4,6 +4,8 @@ Wilaa is an intelligent cybersecurity assistant designed to simplify and automat
 
 <img width="775" alt="Image" src="https://github.com/user-attachments/assets/cba9197c-c7fb-40ed-a46b-bb89a508f4b4" />
 
+---
+
 ## Features ₊˚⊹
 
 - **Conversational Interface**  
