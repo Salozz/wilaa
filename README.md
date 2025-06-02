@@ -6,6 +6,7 @@ Wilaa is an intelligent cybersecurity assistant designed to simplify and automat
 
 ---
 
+
 ## Features ₊˚⊹
 
 - **Conversational Interface**  
@@ -91,6 +92,7 @@ Ensure the following tools are installed on your system:
     pip install -r requirements.txt
 
     ```
+    
 
 ## Usage ₊˚⊹
 
