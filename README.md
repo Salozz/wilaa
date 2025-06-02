@@ -4,6 +4,7 @@ Wilaa is an intelligent cybersecurity assistant designed to simplify and automat
 
 <img width="775" alt="Image" src="https://github.com/user-attachments/assets/cba9197c-c7fb-40ed-a46b-bb89a508f4b4" />
 
+
 ---
 
 
@@ -28,6 +29,9 @@ Wilaa is an intelligent cybersecurity assistant designed to simplify and automat
 
 - **`sudo` Keep-Alive**  
   Maintains elevated privileges without repeated prompts.
+
+
+---
 
 
 ## Installation ₊˚⊹
@@ -93,6 +97,9 @@ Ensure the following tools are installed on your system:
 
     ```
     
+    
+---
+
 
 ## Usage ₊˚⊹
 
@@ -103,9 +110,15 @@ python3 wilaa.py
 ```
 
 
+---
+
+
 ## License ₊˚⊹
 
 MIT License — you're free to use, modify, and share this project.
+
+
+---
 
 
 ## Contributions ₊˚⊹
