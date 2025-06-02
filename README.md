@@ -123,4 +123,4 @@ MIT License — you're free to use, modify, and share this project.
 
 ## Contributions ₊˚⊹
 
-Feel free to open issues or PRs to improve Wilaa. Let's make reconnaissance faster and smarter together. ♡ ₍^. .^⑅₎Ⳋ
+Feel free to open issues or PRs to improve Wilaa. Let's make reconnaissance faster and smarter together. ♡₍^. .^⑅₎Ⳋ
