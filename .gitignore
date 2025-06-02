@@ -192,3 +192,10 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# From Wilaa
+.wilaa_history
+*.report.txt
+dirsearch_report_*.txt
+nikto_scan_*.txt
+nmap_report_*.txt
