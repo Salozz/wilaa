@@ -46,7 +46,8 @@ Ensure the following tools are installed on your system:
 - **Ollama**  
   Local LLM runtime  
   - [Download Ollama](https://ollama.ai/download)  
-  - Then run:  
+  - Then run:
+    
     ```bash
     ollama run mistral
     ```
@@ -56,18 +57,20 @@ Ensure the following tools are installed on your system:
 ### Installation Steps ୨ৎ
 
 1.  **Clone the repository (if applicable):**
+   
     ```bash
     git clone https://github.com/Salozz/wilaa
     cd wilaa
     ```
 
-2. Create a virtual environment (optional but recommended)
+3. Create a virtual environment (optional but recommended)
+
    ```bash
     python3 -m venv venv
     source venv/bin/activate
    ```
 
-3.  **Run the setup script:**
+5.  **Run the setup script:**
 
     The `setup.sh` script will install all required Python packages and check for the presence of Nmap, Nikto, and Ollama.
 
@@ -78,9 +81,10 @@ Ensure the following tools are installed on your system:
 
     If any system dependencies are missing, the script will print an error message. Please install them manually as per the "Prerequisites" section.
 
-4.  **Manual Installation (Alternative)**:
+6.  **Manual Installation (Alternative)**:
 
     If you prefer to install manually, first ensure all prerequisites are met, then install Python dependencies:
+   
     ```bash
     pip install -r requirements.txt
 
