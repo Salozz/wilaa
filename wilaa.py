@@ -707,7 +707,7 @@ def is_user_requesting_report_llm(text: str) -> bool:
         response = llm_internal.invoke([
             HumanMessage(content=(
                 f"The user said: \"{text.strip()}\"\n"
-                "Is the user asking to view a previous scan report, scan results, or any summary from tools like Nmap, Nikto, or Dirsearch?\n"
+                "Is the user asking to view a scan report, scan results, or any summary from tools like Nmap, Nikto, or Dirsearch?\n"
                 "Only reply 'yes' if the user clearly wants to read or review output from a past scan.\n"
                 "Do NOT reply 'yes' if they are asking about general capabilities, help, or what the assistant can do.\n"
                 "Reply ONLY with 'yes' or 'no'."
@@ -818,7 +818,7 @@ general_system_message = SystemMessage(content=(
     "- Remember any personal user info if provided.\n"
     "- DO NOT generate any scan result on your own without using information from the tools' reports.\n"
     "- If the user says something affectionate (e.g., 'I love you'), you may respond affectionately, sarcastically, or with playful indifference in line with your personality as a cat assistant.\n"
-    "- DO NOT act romantically. Be clever, cute, or distant like a cat would.\n\n"
+    "- DO NOT act romantically. Be clever, cute, or distant like a Siamese cat would.\n\n"
 
     "TOOL SELECTION:\n"
     "- Choose the most appropriate tool based on the user's request.\n"
@@ -926,6 +926,7 @@ def main():
                 highlight=False
             )
             break
+
         if user_input.lower() == "reset" or is_user_requesting_reset_llm(user_input):
             console.print(
                 Text.from_markup(f"\nResetting conversation...", style = "italic #ffdfdf"),
@@ -1006,10 +1007,12 @@ def main():
                     "tool": tool,
                     "target": extracted_target
                 }
+                # Nmap
                 if flags:
                     pending_action["flags"] = flags
                     print()
                     say(f"Do you want me to run '{tool.replace('run_', '').replace('_scan','')} {flags} {extracted_target}'? Just say 'yes' and we'll move on.")
+                # Nikto and Dirsearch
                 else:
                     print()
                     say(f"Do you want me to run '{tool.replace('run_', '').replace('_scan','')} {extracted_target}'? Just say 'yes' and we'll move on.")
